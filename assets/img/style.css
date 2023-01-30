@@ -94,3 +94,9 @@ i{
     word-spacing: 0.3rem;
     
 }
+#error1, #error2{
+    font-size: 52px;
+    background: rgb(246, 206, 32);
+    background: linear-gradient(90deg, rgb(246, 206, 32) 1%, rgba(244, 149, 44, 1) 30%, rgb(250, 228, 63) 66%);
+    -webkit-text-fill-color: transparent;
+}
