@@ -117,6 +117,8 @@ async function showMealDetails(id) {
                     <p class="card-text" id="recipe-intro">
                         ${data.meals[0].strInstructions}</p>
                     <a href="${data.meals[0].strYoutube}" class="btn btn-warning target="_blank">Video</a>
+
+                    
                 </div>
             </div>
 
