@@ -13,6 +13,15 @@ Utilizing HTML, CSS, and Javascript, this website is straightforward. The user-s
 ```
 <hr>
 
-### Cloning the website:
+### Cloning the project:
 
-``
+`git clone https://github.com/Salonee-Jain/MealApp.git`
+- Or can just downlaod the zip file
+
+<hr>
+
+### Preview of the project:
+[MealApp](https://salonee-jain.github.io/MealApp/)
+
+<hr>
+
