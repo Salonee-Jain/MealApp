@@ -73,6 +73,7 @@ i {
     background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
     border-radius: 20px;
     padding: 0.4rem 2rem;
+    color: white!important;
 }
 
 .food-wid {
