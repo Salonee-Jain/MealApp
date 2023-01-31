@@ -28,7 +28,9 @@ function showMealList() {
     let html = "";
     let meals = fetchMealsFromApi(url, inputValue);
     meals.then(data => {
+     
         if (data.meals) {
+            console.log(data);
             data.meals.forEach((element) => {
                 let isFav=false;
                 for (let index = 0; index < arr.length; index++) {
@@ -41,7 +43,7 @@ function showMealList() {
                 <div id="card" class="card mb-3" style="width: 20rem;">
                     <img src="${element.strMealThumb}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">${element.strMeal}</h5>
+                        <h5 class="card-title ">${element.strMeal}</h5>
                         <div class="d-flex justify-content-between mt-5">
                             <button type="button" class="btn btn-warning" onclick="showMealDetails(${element.idMeal})">Recipe</button>
                             <button id="main${element.idMeal}" class="btn btn-outline-light active" onclick="addRemoveToFavList(${element.idMeal})" style="border-radius:50%"><i class="fa-solid fa-heart"></i></button>
@@ -92,7 +94,7 @@ async function showMealDetails(id) {
         html += `
           
     <div class="container py-3">
-    <div class="card p-5">
+    <div class="card p-lg-5 p-md-2">
         <div class="row ">
             <div class="col-md-4  align-self-center">
                 <img src="${data.meals[0].strMealThumb}" class="w-100">
@@ -178,7 +180,7 @@ async function showFavMealDetails(id) {
         html += `
           
     <div class="container py-3">
-    <div class="card p-5">
+    <div class="card card p-lg-5 p-md-2">
         <div class="row ">
             <div class="col-md-4  align-self-center">
                 <img src="${data.meals[0].strMealThumb}" class="w-100">

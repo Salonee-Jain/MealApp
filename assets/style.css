@@ -3,7 +3,7 @@
 
 
 * {
-    font-family: 'Anton', sans-serif;
+  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,7 +69,8 @@ i {
 }
 
 .btn-warning {
-    background-color: #F4952C;
+    background: rgb(241, 161, 49);
+    background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
     border-radius: 20px;
     padding: 0.4rem 2rem;
 }
@@ -81,11 +82,16 @@ i {
 }
 
 #heading2 {
-    font-size: 72px;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
     background: rgb(241, 161, 49);
     background: linear-gradient(90deg, rgba(241, 161, 49, 1) 1%, rgba(244, 149, 44, 1) 30%, rgba(250, 197, 63, 1) 66%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.heading{
+    font-family: 'Anton', sans-serif;
 }
 
 #recipe-intro{
@@ -93,3 +99,5 @@ i {
     word-spacing: 0.3rem;
     
 }
+
+
