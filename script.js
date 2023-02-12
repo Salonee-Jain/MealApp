@@ -144,7 +144,7 @@ async function showFavMealList() {
                     <div class="row justify-content-center">
                         <div class="col-md-12 text-center">
             
-                            <div class="mb-4 lead heading2">
+                            <div class="mb-4 lead heading2 white">
                                 No meal added in your favourites list.
                             </div>
                         </div>
@@ -238,3 +238,4 @@ function addRemoveToFavList(id) {
     showFavMealList();
     showMealList();
 }
+

@@ -75,7 +75,9 @@ i {
     padding: 0.4rem 2rem;
     color: white!important;
 }
-
+.white{
+    color: white;
+}
 .food-wid {
     display: flex;
     justify-content: space-between;
