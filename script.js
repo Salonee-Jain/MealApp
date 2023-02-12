@@ -75,7 +75,7 @@ function showMealList() {
                     <div class="row justify-content-center">
                         <div class="col-md-12 text-center" ">
                 
-                            <div class="mb-4 lead">
+                            <div class="mb-4 lead white">
                                 The meal you are looking for was not found.
                             </div>
                         </div>
