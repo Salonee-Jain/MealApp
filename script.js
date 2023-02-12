@@ -21,6 +21,8 @@ async function fetchMealsFromApi(url, value) {
     return data;
 }
 
+//displays the searched meal
+
 function showMealList() {
     let inputValue = document.getElementById("search").value.trim();
     let arr = JSON.parse(localStorage.getItem("favouritesList"));
@@ -172,7 +174,7 @@ async function showFavMealList() {
     document.getElementById("favorite-list").innerHTML= html;
 }
 
-
+//it  shows full meal details of favorite
 async function showFavMealDetails(id) {
     let url = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=";
     let html = "";
@@ -212,6 +214,8 @@ async function showFavMealDetails(id) {
 }
 
 
+
+//adding and removal of the favoite list
 
 function addRemoveToFavList(id) {
     let arr=JSON.parse(localStorage.getItem("favouritesList"));
